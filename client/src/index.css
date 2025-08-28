@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Fira+Code:wght@300;400&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: hsl(0, 0%, 8%);
+  --foreground: hsl(0, 0%, 96%);
+  --card: hsl(0, 0%, 12%);
+  --card-foreground: hsl(0, 0%, 96%);
+  --popover: hsl(0, 0%, 12%);
+  --popover-foreground: hsl(0, 0%, 96%);
+  --primary: hsl(0, 0%, 96%);
+  --primary-foreground: hsl(0, 0%, 8%);
+  --secondary: hsl(0, 0%, 15%);
+  --secondary-foreground: hsl(0, 0%, 96%);
+  --muted: hsl(0, 0%, 15%);
+  --muted-foreground: hsl(0, 0%, 65%);
+  --accent: hsl(120, 20%, 40%);
+  --accent-foreground: hsl(0, 0%, 96%);
+  --destructive: hsl(0, 84%, 60%);
+  --destructive-foreground: hsl(0, 0%, 96%);
+  --border: hsl(0, 0%, 20%);
+  --input: hsl(0, 0%, 15%);
+  --ring: hsl(120, 20%, 40%);
+  --radius: 0.25rem;
+  --font-sans: 'Inter', sans-serif;
+  --font-mono: 'Fira Code', monospace;
+}
+
+.dark {
+  --background: hsl(0, 0%, 8%);
+  --foreground: hsl(0, 0%, 96%);
+  --card: hsl(0, 0%, 12%);
+  --card-foreground: hsl(0, 0%, 96%);
+  --popover: hsl(0, 0%, 12%);
+  --popover-foreground: hsl(0, 0%, 96%);
+  --primary: hsl(0, 0%, 96%);
+  --primary-foreground: hsl(0, 0%, 8%);
+  --secondary: hsl(0, 0%, 15%);
+  --secondary-foreground: hsl(0, 0%, 96%);
+  --muted: hsl(0, 0%, 15%);
+  --muted-foreground: hsl(0, 0%, 65%);
+  --accent: hsl(120, 20%, 40%);
+  --accent-foreground: hsl(0, 0%, 96%);
+  --destructive: hsl(0, 84%, 60%);
+  --destructive-foreground: hsl(0, 0%, 96%);
+  --border: hsl(0, 0%, 20%);
+  --input: hsl(0, 0%, 15%);
+  --ring: hsl(120, 20%, 40%);
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+    line-height: 1.6;
+  }
+}
+
+@layer components {
+  .glyph {
+    @apply font-mono transition-all duration-200 ease-in-out;
+  }
+
+  .glyph:hover {
+    @apply text-accent scale-110;
+  }
+
+  .grid-lines {
+    @apply relative;
+  }
+
+  .grid-lines::before {
+    content: '';
+    @apply absolute inset-0 pointer-events-none;
+    background-image: 
+      linear-gradient(90deg, rgba(255,255,255,0.05) 1px, transparent 1px),
+      linear-gradient(180deg, rgba(255,255,255,0.05) 1px, transparent 1px);
+    background-size: 2rem 2rem;
+    z-index: 0;
+  }
+
+  .text-accent-glow {
+    text-shadow: 0 0 10px rgba(120, 160, 120, 0.3);
+  }
+
+  .form-focus:focus {
+    @apply outline-none border-accent;
+    box-shadow: 0 0 0 2px rgba(120, 160, 120, 0.2);
+  }
+}
+
+@layer utilities {
+  .spacing-18 {
+    margin: 4.5rem;
+  }
+  
+  .spacing-22 {
+    margin: 5.5rem;
+  }
+  
+  .spacing-26 {
+    margin: 6.5rem;
+  }
+  
+  .spacing-30 {
+    margin: 7.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .grid-lines::before {
+    background-size: 1rem 1rem;
+  }
+}
