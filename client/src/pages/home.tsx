@@ -3,11 +3,13 @@ import { useMutation } from "@tanstack/react-query";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { z } from "zod";
+import { Link } from "wouter";
 import { apiRequest } from "@/lib/queryClient";
 import { useToast } from "@/hooks/use-toast";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Form, FormControl, FormField, FormItem, FormMessage } from "@/components/ui/form";
+import { Menu, X } from "lucide-react";
 
 const emailSchema = z.object({
   email: z.string().email("Please enter a valid email address"),
@@ -18,6 +20,7 @@ type EmailFormData = z.infer<typeof emailSchema>;
 export default function Home() {
   const { toast } = useToast();
   const [isSubmitted, setIsSubmitted] = useState(false);
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   const form = useForm<EmailFormData>({
     resolver: zodResolver(emailSchema),
@@ -70,10 +73,68 @@ export default function Home() {
             <div className="font-mono text-sm tracking-wider">
               <span className="glyph">☉</span> DARK & DYSTOPIAN
             </div>
-            <div className="font-mono text-xs text-muted-foreground">
-              EST. <span className="glyph">⧉</span> 2024
+            
+            {/* Desktop Navigation */}
+            <div className="hidden md:flex items-center space-x-8">
+              <Link href="/philosophy" className="text-sm hover:text-accent transition-colors" data-testid="link-philosophy">
+                Philosophy
+              </Link>
+              <Link href="/sustainability" className="text-sm hover:text-accent transition-colors" data-testid="link-sustainability">
+                Sustainability
+              </Link>
+              <Link href="/community" className="text-sm hover:text-accent transition-colors" data-testid="link-community">
+                Community
+              </Link>
+              <div className="font-mono text-xs text-muted-foreground">
+                EST. <span className="glyph">⧉</span> 2024
+              </div>
             </div>
+
+            {/* Mobile Menu Button */}
+            <button
+              onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+              className="md:hidden p-2 hover:text-accent transition-colors"
+              data-testid="button-mobile-menu"
+              aria-label="Toggle navigation menu"
+            >
+              {isMobileMenuOpen ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
+            </button>
           </div>
+
+          {/* Mobile Navigation */}
+          {isMobileMenuOpen && (
+            <div className="md:hidden mt-4 pb-4 border-t border-border">
+              <div className="flex flex-col space-y-4 pt-4">
+                <Link 
+                  href="/philosophy" 
+                  className="text-sm hover:text-accent transition-colors" 
+                  onClick={() => setIsMobileMenuOpen(false)}
+                  data-testid="link-philosophy-mobile"
+                >
+                  Philosophy
+                </Link>
+                <Link 
+                  href="/sustainability" 
+                  className="text-sm hover:text-accent transition-colors"
+                  onClick={() => setIsMobileMenuOpen(false)}
+                  data-testid="link-sustainability-mobile"
+                >
+                  Sustainability
+                </Link>
+                <Link 
+                  href="/community" 
+                  className="text-sm hover:text-accent transition-colors"
+                  onClick={() => setIsMobileMenuOpen(false)}
+                  data-testid="link-community-mobile"
+                >
+                  Community
+                </Link>
+                <div className="font-mono text-xs text-muted-foreground pt-2">
+                  EST. <span className="glyph">⧉</span> 2024
+                </div>
+              </div>
+            </div>
+          )}
         </nav>
       </header>
 
@@ -207,12 +268,24 @@ export default function Home() {
                 <div className="grid grid-cols-2 gap-4 pt-6">
                   <div className="text-center">
                     <div className="font-mono text-xs text-accent mb-2">MATERIALS</div>
-                    <div className="text-sm">100% Sustainable</div>
+                    <div className="text-sm">
+                      <Link href="/sustainability" className="hover:text-accent transition-colors" data-testid="link-materials">
+                        100% Sustainable
+                      </Link>
+                    </div>
                   </div>
                   <div className="text-center">
                     <div className="font-mono text-xs text-accent mb-2">PRODUCTION</div>
                     <div className="text-sm">Limited Batches</div>
                   </div>
+                </div>
+
+                <div className="pt-4">
+                  <Button asChild variant="outline" data-testid="button-learn-philosophy">
+                    <Link href="/philosophy">
+                      Learn Our Philosophy
+                    </Link>
+                  </Button>
                 </div>
               </div>
             </div>
@@ -220,7 +293,7 @@ export default function Home() {
         </section>
 
         {/* Community Signup */}
-        <section className="py-20 lg:py-30">
+        <section id="subscribe" className="py-20 lg:py-30">
           <div className="container mx-auto px-6">
             <div className="max-w-4xl mx-auto text-center">
               <div className="font-mono text-xs text-accent tracking-widest uppercase mb-6">
@@ -315,25 +388,61 @@ export default function Home() {
       {/* Footer */}
       <footer className="py-12 border-t border-border bg-secondary">
         <div className="container mx-auto px-6">
-          <div className="grid md:grid-cols-2 gap-8 items-center">
-            <div>
-              <div className="font-mono text-sm tracking-wider mb-2">
+          <div className="grid md:grid-cols-4 gap-8">
+            <div className="md:col-span-2">
+              <div className="font-mono text-sm tracking-wider mb-4">
                 <span className="glyph">☉</span> DARK & DYSTOPIAN
               </div>
-              <p className="text-xs text-muted-foreground">
-                Futurewear artifacts for conscious transformation
+              <p className="text-sm text-muted-foreground mb-4 max-w-md">
+                Futurewear artifacts for conscious transformation. Creating collectible, 
+                sustainable garments that fuse dystopian aesthetics with solarpunk renewal.
               </p>
+              <nav className="flex flex-wrap gap-4 text-sm">
+                <Link href="/philosophy" className="hover:text-accent transition-colors" data-testid="footer-link-philosophy">
+                  Philosophy
+                </Link>
+                <Link href="/sustainability" className="hover:text-accent transition-colors" data-testid="footer-link-sustainability">
+                  Sustainability
+                </Link>
+                <Link href="/community" className="hover:text-accent transition-colors" data-testid="footer-link-community">
+                  Community
+                </Link>
+              </nav>
             </div>
             
-            <div className="text-right">
-              <div className="font-mono text-xs text-muted-foreground space-x-4">
-                <span className="glyph">⧉</span>
-                <span>SUSTAINABILITY</span>
-                <span className="glyph">✿</span>
-                <span>COMMUNITY</span>
-                <span className="glyph">☉</span>
-                <span>TRANSFORMATION</span>
-              </div>
+            <div>
+              <h4 className="font-mono text-xs text-accent tracking-widest uppercase mb-4">
+                Collections
+              </h4>
+              <ul className="space-y-2 text-sm text-muted-foreground">
+                <li>Genesis Artifacts</li>
+                <li>Shadow Walker Series</li>
+                <li>Revival Collection</li>
+                <li>Limited Editions</li>
+              </ul>
+            </div>
+            
+            <div>
+              <h4 className="font-mono text-xs text-accent tracking-widest uppercase mb-4">
+                Values
+              </h4>
+              <ul className="space-y-2 text-sm text-muted-foreground">
+                <li>Sustainable Materials</li>
+                <li>Narrative Fashion</li>
+                <li>Conscious Consumption</li>
+                <li>Community Impact</li>
+              </ul>
+            </div>
+          </div>
+          
+          <div className="mt-8 pt-8 border-t border-border flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
+            <div className="font-mono text-xs text-muted-foreground">
+              © 2024 Dark & Dystopian. Sustainable futurewear for conscious transformation.
+            </div>
+            <div className="font-mono text-xs text-muted-foreground flex items-center space-x-4">
+              <span className="glyph">⧉</span>
+              <span>EST. 2024</span>
+              <span className="glyph">✿</span>
             </div>
           </div>
         </div>

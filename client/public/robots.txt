@@ -1,0 +1,12 @@
+# Robots.txt for Dark & Dystopian
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /api/
+Disallow: /private/
+
+# Sitemap
+Sitemap: https://darkdystopian.com/sitemap.xml
+
+# Crawl-delay for respectful crawling
+Crawl-delay: 1

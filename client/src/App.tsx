@@ -5,11 +5,17 @@ import { Toaster } from "@/components/ui/toaster";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import Home from "@/pages/home";
 import NotFound from "@/pages/not-found";
+import Philosophy from "@/pages/philosophy";
+import Sustainability from "@/pages/sustainability";
+import Community from "@/pages/community";
 
 function Router() {
   return (
     <Switch>
       <Route path="/" component={Home} />
+      <Route path="/philosophy" component={Philosophy} />
+      <Route path="/sustainability" component={Sustainability} />
+      <Route path="/community" component={Community} />
       <Route component={NotFound} />
     </Switch>
   );
