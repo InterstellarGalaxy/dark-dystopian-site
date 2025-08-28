@@ -30,7 +30,7 @@ export default function Sustainability() {
                 </Link>
               </Button>
               <div className="font-mono text-xs text-accent tracking-widest uppercase">
-                <span className="glyph">✿</span> Sustainability
+                <span className="glyph">🌱</span> Regenerative Rebellion
               </div>
             </div>
 
@@ -38,11 +38,12 @@ export default function Sustainability() {
             <article className="space-y-12">
               <header>
                 <h1 className="text-4xl md:text-6xl font-light leading-tight mb-6">
-                  Sustainable Materials:<br />
-                  <span className="text-accent-glow">Our Journey</span>
+                  Weapons Against<br />
+                  <span className="text-accent-glow">Waste Culture</span>
                 </h1>
                 <p className="text-xl text-muted-foreground leading-relaxed max-w-3xl">
-                  From concept to creation, every decision we make is guided by our commitment to environmental responsibility and regenerative practices.
+                  Our artifacts challenge disposable dystopia through dual-purpose design: either lasting lifetimes through eternal durability, 
+                  or creating new life through regenerative transformation. This is sustainability as rebellion.
                 </p>
               </header>
 
@@ -92,42 +93,52 @@ export default function Sustainability() {
               {/* Material Story */}
               <section className="space-y-8 max-w-3xl">
                 <div className="space-y-4">
-                  <h2 className="text-2xl font-light">Revolutionary Materials</h2>
+                  <h2 className="text-2xl font-light">Phoenix Seed Garments & Eternal Steel</h2>
                   <p className="text-muted-foreground leading-relaxed">
-                    Our material palette consists entirely of next-generation sustainable fibers. We use lab-grown cotton alternatives, recycled ocean plastics transformed into high-performance textiles, and innovative biofabricated materials grown from agricultural waste.
+                    Our Dystopian Steel Rings are forged from 316L surgical steel—eternal durability that mocks disposable culture, 
+                    laser-etched with coordinates of hope chosen by our collective. Phoenix Seed Garments are biodegradable clothing 
+                    embedded with wildflower seeds: wear until worn, then plant to create beauty from destruction.
                   </p>
                   <p className="text-muted-foreground leading-relaxed">
-                    Each material is selected not just for its environmental credentials, but for its ability to tell our story—the transformation from waste to wonder, from problem to solution.
-                  </p>
-                </div>
-
-                <div className="space-y-4">
-                  <h2 className="text-2xl font-light">Circular Design Philosophy</h2>
-                  <p className="text-muted-foreground leading-relaxed">
-                    Every garment is designed for longevity and eventual return to the earth. Our modular construction allows for easy repair and customization, extending the life cycle of each piece indefinitely.
-                  </p>
-                  <p className="text-muted-foreground leading-relaxed">
-                    When a garment finally reaches the end of its journey, our take-back program ensures it's either upcycled into new pieces or composted safely, completing the circle of regeneration.
+                    Our Oceanic Resurrection Collection transforms seaweed and bamboo into textiles that return safely to earth, 
+                    challenging synthetic waste while nurturing regenerative cycles. Each material is selected as a weapon against waste culture.
                   </p>
                 </div>
 
                 <div className="space-y-4">
-                  <h2 className="text-2xl font-light">Supply Chain Transparency</h2>
+                  <h2 className="text-2xl font-light">Dual-Purpose Rebellion Design</h2>
                   <p className="text-muted-foreground leading-relaxed">
-                    We work exclusively with suppliers who share our values and meet our rigorous environmental and social standards. Every step of our supply chain is traceable, from fiber production to final assembly.
+                    Either lasts lifetimes or feeds new life—there is no middle ground in our rebellion against disposable dystopia. 
+                    Our micro-batch exclusivity with unique hand-variations ensures each artifact carries authentic rebellion, not artificial scarcity.
                   </p>
                   <p className="text-muted-foreground leading-relaxed">
-                    Our manufacturing partners are small-scale facilities that prioritize worker welfare, environmental stewardship, and quality craftsmanship over mass production efficiency.
+                    Community co-creation means our collective votes on designs, influences direction, and shapes the artifacts we forge together. 
+                    When Phoenix Seed Garments complete their fashion journey, they bloom into wildflower gardens—transformation through creative resistance.
                   </p>
                 </div>
 
                 <div className="space-y-4">
-                  <h2 className="text-2xl font-light">Beyond Carbon Neutral</h2>
+                  <h2 className="text-2xl font-light">Community-Controlled Production</h2>
                   <p className="text-muted-foreground leading-relaxed">
-                    Our goal isn't just to minimize harm—it's to create positive impact. Through regenerative agriculture partnerships, carbon sequestration projects, and community reforestation initiatives, each Dark & Dystopian piece contributes to healing the planet.
+                    Our collective rebellion extends to production—we work with small-scale artisans who share our values and reject 
+                    mass production's disposable dystopia. Every step mocks conventional supply chains through radical transparency and worker empowerment.
                   </p>
                   <p className="text-muted-foreground leading-relaxed">
-                    We're not just making clothes; we're cultivating a movement toward regenerative fashion that gives back more than it takes.
+                    Manufacturing partners are chosen by community influence, prioritizing creative resistance over efficiency. 
+                    Quality craftsmanship becomes our weapon against waste culture—creating artifacts that challenge the system through lasting beauty.
+                  </p>
+                </div>
+
+                <div className="space-y-4">
+                  <h2 className="text-2xl font-light">Transforming Dystopia into Solarpunk Abundance</h2>
+                  <p className="text-muted-foreground leading-relaxed">
+                    We don't just minimize harm—we wage creative war against waste culture by creating positive regenerative impact. 
+                    Through community-chosen reforestation coordinates, wildflower seeding projects, and carbon sequestration rebellion, 
+                    each artifact contributes to healing the planet through provocative hope.
+                  </p>
+                  <p className="text-muted-foreground leading-relaxed">
+                    We're not just making fashion—we're forging a cultural movement that transforms dystopian reality into 
+                    solarpunk possibility through collective creative resistance. Every purchase is a vote for regenerative abundance.
                   </p>
                 </div>
               </section>

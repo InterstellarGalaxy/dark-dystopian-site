@@ -147,27 +147,27 @@ export default function Home() {
               <div className="lg:col-span-7 space-y-8">
                 <div className="space-y-4">
                   <div className="font-mono text-xs text-accent tracking-widest uppercase">
-                    <span className="glyph">✿</span> Futurewear Artifacts
+                    <span className="glyph">⚡</span> Creative Rebellion
                   </div>
                   <h1 className="text-4xl md:text-6xl lg:text-7xl font-light leading-tight">
-                    Every artifact<br />
-                    tells a story of<br />
-                    <span className="text-accent-glow">transformation</span>
+                    Light born<br />
+                    from <span className="text-accent-glow">darkness</span><br />
+                    through collective uprising
                   </h1>
                 </div>
                 
                 <div className="space-y-6 max-w-lg">
                   <p className="text-lg text-muted-foreground leading-relaxed">
-                    We create collectible, narrative-driven garments from sustainable materials. 
-                    Each piece invites you into an exclusive community of reflection and renewal.
+                    A provocative futurewear movement that transforms dystopian grit into solarpunk hope. 
+                    Join the rebellion against disposable culture through artifacts of lasting beauty and regenerative purpose.
                   </p>
                   
                   <div className="flex items-center space-x-4 text-sm font-mono text-muted-foreground">
-                    <span className="glyph">☉</span>
-                    <span>DYSTOPIAN GRIT</span>
-                    <span className="glyph">⧉</span>
-                    <span>SOLARPUNK RENEWAL</span>
-                    <span className="glyph">✿</span>
+                    <span className="glyph">🌱</span>
+                    <span>WEAPONS AGAINST WASTE</span>
+                    <span className="glyph">⚡</span>
+                    <span>VESSELS FOR TRANSFORMATION</span>
+                    <span className="glyph">👑</span>
                   </div>
                 </div>
               </div>
@@ -190,15 +190,15 @@ export default function Home() {
             <div className="grid lg:grid-cols-12 gap-12">
               <div className="lg:col-span-4">
                 <div className="font-mono text-xs text-accent tracking-widest uppercase mb-4">
-                  <span className="glyph">⧉</span> Debut Collection
+                  <span className="glyph">⚡</span> Revolutionary Products
                 </div>
                 <h2 className="text-3xl md:text-4xl font-light mb-6">
-                  Genesis<br />
+                  Eternal<br />
                   Artifacts
                 </h2>
                 <p className="text-muted-foreground text-sm leading-relaxed">
-                  Limited quantities. Unique variations.<br />
-                  Each piece carries fragments of tomorrow.
+                  Either lasts lifetimes or feeds new life.<br />
+                  Micro-batch exclusivity with community co-creation.
                 </p>
               </div>
 
@@ -206,30 +206,30 @@ export default function Home() {
                 {/* Collection Item 1 */}
                 <div className="space-y-4 group">
                   <div className="font-mono text-xs text-muted-foreground tracking-wide">
-                    ARTIFACT_001 <span className="glyph group-hover:text-accent transition-colors">☉</span>
+                    STEEL_001 <span className="glyph group-hover:text-accent transition-colors">⚡</span>
                   </div>
-                  <h3 className="text-xl font-medium">Shadow Walker Jacket</h3>
+                  <h3 className="text-xl font-medium">Dystopian Steel Rings</h3>
                   <p className="text-sm text-muted-foreground leading-relaxed">
-                    Born from necessity in collapsed cities. Regenerative materials that adapt 
-                    to urban decay while nurturing new growth.
+                    316L surgical steel rebellion symbols, laser-etched with coordinates of hope 
+                    chosen by the collective. Eternal durability meets community vision.
                   </p>
                   <div className="font-mono text-xs text-accent">
-                    12 VARIATIONS AVAILABLE
+                    COMMUNITY CO-DESIGNED
                   </div>
                 </div>
 
                 {/* Collection Item 2 */}
                 <div className="space-y-4 group">
                   <div className="font-mono text-xs text-muted-foreground tracking-wide">
-                    ARTIFACT_002 <span className="glyph group-hover:text-accent transition-colors">✿</span>
+                    PHOENIX_002 <span className="glyph group-hover:text-accent transition-colors">🌱</span>
                   </div>
-                  <h3 className="text-xl font-medium">Revival Suit</h3>
+                  <h3 className="text-xl font-medium">Phoenix Seed Garments</h3>
                   <p className="text-sm text-muted-foreground leading-relaxed">
-                    Engineered for the architects of renewal. Biomimetic fabrics that 
-                    blur the line between technology and nature.
+                    Biodegradable clothing embedded with wildflower seeds. Wear until worn, 
+                    then plant to create beauty from destruction. Life from fashion.
                   </p>
                   <div className="font-mono text-xs text-accent">
-                    8 VARIATIONS AVAILABLE
+                    REGENERATIVE BY DESIGN
                   </div>
                 </div>
               </div>
@@ -243,47 +243,50 @@ export default function Home() {
             <div className="grid lg:grid-cols-12 gap-12 items-center">
               <div className="lg:col-span-6">
                 <div className="font-mono text-xs text-accent tracking-widest uppercase mb-6">
-                  <span className="glyph">☉</span> Philosophy
+                  <span className="glyph">⚡</span> Dystopian Hope
                 </div>
                 <h2 className="text-3xl md:text-5xl font-light leading-tight mb-8">
-                  Clothing as a medium<br />
-                  for <span className="text-accent-glow">reflection</span><br />
-                  and change
+                  Creative freedom<br />
+                  is our <span className="text-accent-glow">weapon</span><br />
+                  against disposable culture
                 </h2>
               </div>
 
               <div className="lg:col-span-6 space-y-6">
                 <p className="text-muted-foreground leading-relaxed">
-                  In a world caught between collapse and renewal, we refuse to choose sides. 
-                  Our garments embody the tension—the raw honesty of dystopian realities 
-                  merged with the hopeful innovation of solarpunk futures.
+                  We exist in the tension between shadow and renewal, creating artifacts that serve as both 
+                  weapons against waste and vessels for transformation. Our rebellion challenges disposable 
+                  dystopia through beauty, turning darkness into living light.
                 </p>
                 
                 <p className="text-muted-foreground leading-relaxed">
-                  Every stitch carries intention. Every fabric tells a story of transformation. 
-                  We create not just clothing, but artifacts of conscious evolution—pieces that 
-                  invite their wearers to question, reflect, and ultimately, transcend.
+                  Every piece carries both edge and empathy. We forge artifacts of rebellion that nurture hope—because 
+                  the future needs rebels who believe in beauty and community-driven creative resistance.
                 </p>
 
                 <div className="grid grid-cols-2 gap-4 pt-6">
                   <div className="text-center">
-                    <div className="font-mono text-xs text-accent mb-2">MATERIALS</div>
+                    <div className="font-mono text-xs text-accent mb-2">REBELLION</div>
                     <div className="text-sm">
-                      <Link href="/sustainability" className="hover:text-accent transition-colors" data-testid="link-materials">
-                        100% Sustainable
+                      <Link href="/community" className="hover:text-accent transition-colors" data-testid="link-rebellion">
+                        Community-Driven
                       </Link>
                     </div>
                   </div>
                   <div className="text-center">
-                    <div className="font-mono text-xs text-accent mb-2">PRODUCTION</div>
-                    <div className="text-sm">Limited Batches</div>
+                    <div className="font-mono text-xs text-accent mb-2">PURPOSE</div>
+                    <div className="text-sm">
+                      <Link href="/sustainability" className="hover:text-accent transition-colors" data-testid="link-purpose">
+                        Regenerative Design
+                      </Link>
+                    </div>
                   </div>
                 </div>
 
                 <div className="pt-4">
                   <Button asChild variant="outline" data-testid="button-learn-philosophy">
                     <Link href="/philosophy">
-                      Learn Our Philosophy
+                      Join the Rebellion
                     </Link>
                   </Button>
                 </div>
@@ -297,18 +300,18 @@ export default function Home() {
           <div className="container mx-auto px-6">
             <div className="max-w-4xl mx-auto text-center">
               <div className="font-mono text-xs text-accent tracking-widest uppercase mb-6">
-                <span className="glyph">⧉</span> Community
+                <span className="glyph">⚡</span> The Dystopian Collective
               </div>
               
               <h2 className="text-3xl md:text-5xl font-light leading-tight mb-8">
-                Join the Dark &<br />
-                <span className="text-accent-glow">Dystopian Club</span>
+                Join the Creative<br />
+                <span className="text-accent-glow">Uprising</span>
               </h2>
               
               <p className="text-lg text-muted-foreground mb-12 max-w-2xl mx-auto">
-                Become part of an exclusive community that questions conventional fashion 
-                and creates meaningful change. Early access, exclusive insights, and 
-                connection with like-minded visionaries.
+                Become part of a community-driven rebellion against disposable culture. 
+                Vote on designs, co-create artifacts, and transform dystopian reality 
+                into solarpunk possibility through collective creative resistance.
               </p>
 
               {/* Email signup form */}
@@ -354,30 +357,39 @@ export default function Home() {
                 </Form>
               )}
 
-              {/* Benefits Grid */}
+              {/* Collective Tiers Grid */}
               <div className="grid md:grid-cols-3 gap-8 mt-16 pt-16 border-t border-border">
-                <div className="text-center">
-                  <div className="glyph text-2xl text-accent mb-4">☉</div>
-                  <h3 className="font-medium mb-2">First Access</h3>
-                  <p className="text-sm text-muted-foreground">
-                    Priority access to new collections before public release
+                <div className="text-center group">
+                  <div className="text-2xl mb-4">🌱</div>
+                  <h3 className="font-medium mb-2">Seedling (Free)</h3>
+                  <p className="text-sm text-muted-foreground mb-3">
+                    Underground access to manifestos, early reveals, and design submissions
                   </p>
+                  <div className="font-mono text-xs text-accent">
+                    "JOIN THE UPRISING"
+                  </div>
                 </div>
                 
-                <div className="text-center">
-                  <div className="glyph text-2xl text-accent mb-4">⧉</div>
-                  <h3 className="font-medium mb-2">Exclusive Insights</h3>
-                  <p className="text-sm text-muted-foreground">
-                    Behind-the-scenes stories and design philosophy deep-dives
+                <div className="text-center group">
+                  <div className="text-2xl mb-4">⚡</div>
+                  <h3 className="font-medium mb-2">Creator ($15/mo)</h3>
+                  <p className="text-sm text-muted-foreground mb-3">
+                    Vote on directions, quarterly artifacts, co-creation access, 15% discount
                   </p>
+                  <div className="font-mono text-xs text-accent">
+                    "MOST REBELLIOUS"
+                  </div>
                 </div>
                 
-                <div className="text-center">
-                  <div className="glyph text-2xl text-accent mb-4">✿</div>
-                  <h3 className="font-medium mb-2">Community Impact</h3>
-                  <p className="text-sm text-muted-foreground">
-                    Influence future designs and participate in meaningful conversations
+                <div className="text-center group">
+                  <div className="text-2xl mb-4">👑</div>
+                  <h3 className="font-medium mb-2">Visionary ($50/mo)</h3>
+                  <p className="text-sm text-muted-foreground mb-3">
+                    Shape brand transformation, co-design pieces, custom commissions, 25% discount
                   </p>
+                  <div className="font-mono text-xs text-accent">
+                    "LEAD THE REVOLUTION"
+                  </div>
                 </div>
               </div>
             </div>
@@ -394,8 +406,8 @@ export default function Home() {
                 <span className="glyph">☉</span> DARK & DYSTOPIAN
               </div>
               <p className="text-sm text-muted-foreground mb-4 max-w-md">
-                Futurewear artifacts for conscious transformation. Creating collectible, 
-                sustainable garments that fuse dystopian aesthetics with solarpunk renewal.
+                Light born from darkness. A provocative futurewear movement that transforms 
+                dystopian grit into solarpunk hope through community-driven creative rebellion.
               </p>
               <nav className="flex flex-wrap gap-4 text-sm">
                 <Link href="/philosophy" className="hover:text-accent transition-colors" data-testid="footer-link-philosophy">
@@ -412,32 +424,32 @@ export default function Home() {
             
             <div>
               <h4 className="font-mono text-xs text-accent tracking-widest uppercase mb-4">
-                Collections
+                Eternal Artifacts
               </h4>
               <ul className="space-y-2 text-sm text-muted-foreground">
-                <li>Genesis Artifacts</li>
-                <li>Shadow Walker Series</li>
-                <li>Revival Collection</li>
-                <li>Limited Editions</li>
+                <li>Dystopian Steel Rings</li>
+                <li>Phoenix Seed Garments</li>
+                <li>Oceanic Resurrection</li>
+                <li>Community Co-Designs</li>
               </ul>
             </div>
             
             <div>
               <h4 className="font-mono text-xs text-accent tracking-widest uppercase mb-4">
-                Values
+                Rebellion Pillars
               </h4>
               <ul className="space-y-2 text-sm text-muted-foreground">
-                <li>Sustainable Materials</li>
-                <li>Narrative Fashion</li>
-                <li>Conscious Consumption</li>
-                <li>Community Impact</li>
+                <li>Weapons Against Waste</li>
+                <li>Collective Uprising</li>
+                <li>Provocative Hope</li>
+                <li>Creative Resistance</li>
               </ul>
             </div>
           </div>
           
           <div className="mt-8 pt-8 border-t border-border flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
             <div className="font-mono text-xs text-muted-foreground">
-              © 2024 Dark & Dystopian. Sustainable futurewear for conscious transformation.
+              © 2024 Dark & Dystopian. Creative rebellion against disposable culture.
             </div>
             <div className="font-mono text-xs text-muted-foreground flex items-center space-x-4">
               <span className="glyph">⧉</span>

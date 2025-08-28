@@ -2,7 +2,7 @@
 
 ## Overview
 
-Dark & Dystopian is a futurewear brand creating an MVP single-page website to capture early community interest for collectible, narrative-driven sustainable garments. The application is built as a full-stack TypeScript solution with React frontend and Express backend, designed to showcase the brand's duality of dystopian grit and solarpunk renewal through an email subscription system for early access.
+Dark & Dystopian is a provocative futurewear movement that transforms dystopian grit into solarpunk hope through community-driven creative rebellion. The application is built as a full-stack TypeScript solution with React frontend and Express backend, showcasing the brand's "light born from darkness" philosophy through tiered membership structure and email subscription system for the collective uprising.
 
 ## User Preferences
 
@@ -107,3 +107,12 @@ Preferred communication style: Simple, everyday language.
 - Created SEO-optimized content pages (Philosophy, Sustainability, Community)
 - Improved navigation with keyword-rich anchor texts
 - Enhanced footer with additional navigation and brand keywords
+
+### Brand Identity Update (2025-01-28)
+- **Core Identity Shift**: Evolved from minimalist aesthetic to provocative futurewear rebellion
+- **New Philosophy**: "Dystopian Hope" - light born from darkness through community-driven creative rebellion
+- **Product Vision**: Eternal Artifacts (Dystopian Steel Rings, Phoenix Seed Garments, Oceanic Resurrection Collection)
+- **Community Structure**: Tiered Dystopian Collective (🌱 Seedling Free, ⚡ Creator $15/mo, 👑 Visionary $50/mo)
+- **Brand Messaging**: "Creative freedom is our weapon" against disposable culture
+- **Target Audience**: Conscious Rebels (25-40) seeking community-controlled creative resistance
+- **Differentiation**: Community votes on products, dual-purpose design (eternal durability or regenerative transformation)

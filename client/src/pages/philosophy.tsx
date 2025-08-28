@@ -30,7 +30,7 @@ export default function Philosophy() {
                 </Link>
               </Button>
               <div className="font-mono text-xs text-accent tracking-widest uppercase">
-                <span className="glyph">✿</span> Our Philosophy
+                <span className="glyph">⚡</span> Dystopian Hope
               </div>
             </div>
 
@@ -38,43 +38,58 @@ export default function Philosophy() {
             <article className="space-y-12">
               <header>
                 <h1 className="text-4xl md:text-6xl font-light leading-tight mb-6">
-                  The Philosophy of<br />
-                  <span className="text-accent-glow">Dystopian Fashion</span>
+                  Creative Freedom is<br />
+                  Our <span className="text-accent-glow">Weapon</span>
                 </h1>
                 <p className="text-xl text-muted-foreground leading-relaxed max-w-3xl">
-                  In a world caught between collapse and renewal, fashion becomes more than aesthetics—it becomes a statement of hope, resistance, and transformation.
+                  We exist in the tension between shadow and renewal, creating artifacts that serve as both 
+                  weapons against waste and vessels for transformation. This is our manifesto of rebellious hope.
                 </p>
               </header>
 
-              {/* Core Principles */}
-              <section className="grid md:grid-cols-3 gap-8">
-                <div className="space-y-4">
-                  <div className="flex items-center gap-3">
-                    <Recycle className="h-6 w-6 text-accent" />
-                    <h2 className="text-xl font-medium">Sustainable Futures</h2>
-                  </div>
-                  <p className="text-muted-foreground leading-relaxed">
-                    Every garment is crafted from plant-based materials and recycled fibers, proving that sustainability and style are not mutually exclusive. We believe the future of fashion lies in regenerative practices.
-                  </p>
-                </div>
-
+              {/* Core Rebellion Pillars */}
+              <section className="grid md:grid-cols-2 gap-8">
                 <div className="space-y-4">
                   <div className="flex items-center gap-3">
                     <Zap className="h-6 w-6 text-accent" />
-                    <h2 className="text-xl font-medium">Narrative Design</h2>
+                    <h2 className="text-xl font-medium">Rebellious Quality</h2>
                   </div>
                   <p className="text-muted-foreground leading-relaxed">
-                    Each piece tells a story of transformation—from dystopian decay to solarpunk renewal. Our designs embody the journey from darkness to light, from despair to hope.
+                    Artifacts that defy disposable dystopia through eternal durability or regenerative design. 
+                    Either lasts lifetimes or feeds new life—there is no middle ground in our rebellion against waste.
                   </p>
                 </div>
 
                 <div className="space-y-4">
                   <div className="flex items-center gap-3">
                     <Users className="h-6 w-6 text-accent" />
-                    <h2 className="text-xl font-medium">Collective Impact</h2>
+                    <h2 className="text-xl font-medium">Collective Uprising</h2>
                   </div>
                   <p className="text-muted-foreground leading-relaxed">
-                    Fashion is a tool for building community. Our limited collections create exclusive experiences that connect like-minded individuals committed to conscious consumption.
+                    Community-driven creative rebellion where members shape our direction. This isn't fashion designed 
+                    for you—it's fashion designed with you, voted on by you, co-created through collective vision.
+                  </p>
+                </div>
+
+                <div className="space-y-4">
+                  <div className="flex items-center gap-3">
+                    <Recycle className="h-6 w-6 text-accent" />
+                    <h2 className="text-xl font-medium">Provocative Hope</h2>
+                  </div>
+                  <p className="text-muted-foreground leading-relaxed">
+                    Challenging systems through beauty, turning darkness into possibility. We refuse to choose 
+                    between edge and empathy—every piece carries both, because the future needs rebels who believe in beauty.
+                  </p>
+                </div>
+
+                <div className="space-y-4">
+                  <div className="flex items-center gap-3">
+                    <Users className="h-6 w-6 text-accent" />
+                    <h2 className="text-xl font-medium">Dystopian-to-Solarpunk</h2>
+                  </div>
+                  <p className="text-muted-foreground leading-relaxed">
+                    Transforming waste culture into regenerative abundance. We're not just making sustainable fashion—
+                    we're weaponizing creativity to forge a new path from disposable despair to regenerative hope.
                   </p>
                 </div>
               </section>
@@ -82,32 +97,38 @@ export default function Philosophy() {
               {/* Main Philosophy Content */}
               <section className="space-y-8 max-w-3xl">
                 <div className="space-y-4">
-                  <h2 className="text-2xl font-light">The Duality of Design</h2>
+                  <h2 className="text-2xl font-light">Light Born from Darkness</h2>
                   <p className="text-muted-foreground leading-relaxed">
-                    Our aesthetic embraces the tension between destruction and creation. The dystopian elements—industrial textures, monochromatic palettes, deconstructed silhouettes—acknowledge the harsh realities of our environmental and social challenges.
+                    We are "light born from darkness"—a collective that refuses to surrender to disposable culture's dystopian grip. 
+                    Our aesthetic embraces the grit of our current reality while forging artifacts that embody solarpunk possibility.
                   </p>
                   <p className="text-muted-foreground leading-relaxed">
-                    Yet within this darkness, we weave threads of solarpunk optimism. Sustainable materials, regenerative processes, and community-focused design practices represent our commitment to a better future.
-                  </p>
-                </div>
-
-                <div className="space-y-4">
-                  <h2 className="text-2xl font-light">Artifacts of Transformation</h2>
-                  <p className="text-muted-foreground leading-relaxed">
-                    We don't create clothes—we create artifacts. Each piece is a collector's item that represents a moment in time, a philosophy made tangible, a story waiting to be lived.
-                  </p>
-                  <p className="text-muted-foreground leading-relaxed">
-                    Our collections are intentionally limited, not for artificial scarcity, but because true craftsmanship and sustainable practices don't scale infinitely. Quality over quantity. Meaning over mass production.
+                    Every design carries both shadow and illumination. Dystopian steel rings laser-etched with coordinates of hope. 
+                    Phoenix seed garments that bloom into wildflowers after their fashion life ends. Beauty born from rebellion, hope forged through resistance.
                   </p>
                 </div>
 
                 <div className="space-y-4">
-                  <h2 className="text-2xl font-light">The Future We Choose</h2>
+                  <h2 className="text-2xl font-light">Weapons Against Waste Culture</h2>
                   <p className="text-muted-foreground leading-relaxed">
-                    Fashion has the power to shape culture and influence behavior. By choosing Dark & Dystopian, you're not just purchasing clothing—you're investing in a vision of the future where style, sustainability, and social consciousness converge.
+                    We don't create clothes—we forge weapons against disposable culture. Each artifact is designed with dual purpose: 
+                    either to last lifetimes through eternal durability, or to create new life through regenerative transformation.
                   </p>
                   <p className="text-muted-foreground leading-relaxed">
-                    Join us in creating a narrative where fashion becomes a force for positive transformation, where every thread tells a story of hope, and where the future is not something that happens to us, but something we actively create.
+                    Our micro-batch exclusivity isn't about artificial scarcity—it's about authentic rebellion. Limited runs with unique 
+                    hand-variations, community co-creation, and narrative-driven design that mocks mass production while nurturing meaningful connection.
+                  </p>
+                </div>
+
+                <div className="space-y-4">
+                  <h2 className="text-2xl font-light">The Revolution We're Building</h2>
+                  <p className="text-muted-foreground leading-relaxed">
+                    This isn't just fashion—it's cultural rebellion. By joining Dark & Dystopian, you're not purchasing products—
+                    you're joining a collective uprising against disposable culture, voting with your values, and co-creating the future through provocative hope.
+                  </p>
+                  <p className="text-muted-foreground leading-relaxed">
+                    Together, we transform dystopian reality into solarpunk possibility through "rebellion with purpose." 
+                    Every artifact carries our manifesto: Creative freedom is our weapon, and we forge the future through collective creative resistance.
                   </p>
                 </div>
               </section>
@@ -116,14 +137,14 @@ export default function Philosophy() {
               <section className="border-t border-border pt-12">
                 <div className="flex flex-col sm:flex-row gap-6 items-start sm:items-center justify-between">
                   <div>
-                    <h3 className="text-xl font-medium mb-2">Join the Movement</h3>
+                    <h3 className="text-xl font-medium mb-2">Join the Creative Uprising</h3>
                     <p className="text-muted-foreground">
-                      Be part of the narrative. Get early access to our collections.
+                      Be part of the collective rebellion. Shape the artifacts we forge together.
                     </p>
                   </div>
                   <Button asChild size="lg" data-testid="button-subscribe">
                     <Link href="/#subscribe">
-                      Subscribe for Early Access
+                      Join the Dystopian Collective
                     </Link>
                   </Button>
                 </div>

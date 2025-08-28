@@ -30,7 +30,7 @@ export default function Community() {
                 </Link>
               </Button>
               <div className="font-mono text-xs text-accent tracking-widest uppercase">
-                <span className="glyph">✿</span> Community
+                <span className="glyph">⚡</span> The Dystopian Collective
               </div>
             </div>
 
@@ -38,44 +38,79 @@ export default function Community() {
             <article className="space-y-12">
               <header>
                 <h1 className="text-4xl md:text-6xl font-light leading-tight mb-6">
-                  Building a<br />
-                  <span className="text-accent-glow">Conscious Community</span>
+                  Join the Creative<br />
+                  <span className="text-accent-glow">Uprising</span>
                 </h1>
                 <p className="text-xl text-muted-foreground leading-relaxed max-w-3xl">
-                  Fashion is more powerful when shared. Our community brings together conscious consumers, creative thinkers, and change-makers united by a common vision of sustainable style.
+                  Community-driven rebellion against disposable culture. Our collective transforms dystopian reality into 
+                  solarpunk possibility through creative resistance. Vote on designs, co-create artifacts, lead the revolution.
                 </p>
               </header>
 
-              {/* Community Pillars */}
-              <section className="grid md:grid-cols-3 gap-8">
-                <div className="space-y-4">
-                  <div className="flex items-center gap-3">
-                    <Users className="h-6 w-6 text-accent" />
-                    <h2 className="text-xl font-medium">Collective Impact</h2>
+              {/* Dystopian Collective Tiers */}
+              <section className="space-y-8">
+                <h2 className="text-2xl font-light">The Dystopian Collective: Tiered Community</h2>
+                
+                <div className="grid md:grid-cols-3 gap-8">
+                  <div className="border border-border rounded-lg p-6 space-y-4">
+                    <div className="flex items-center gap-3">
+                      <div className="text-2xl">🌱</div>
+                      <div>
+                        <h3 className="text-xl font-medium">Seedling (Free)</h3>
+                        <p className="text-sm text-accent font-mono">"JOIN THE UPRISING"</p>
+                      </div>
+                    </div>
+                    <p className="text-muted-foreground text-sm leading-relaxed">
+                      Underground access to manifestos, early reveals, and design submission opportunities. 
+                      Start your rebellion against disposable culture.
+                    </p>
+                    <ul className="space-y-1 text-sm text-muted-foreground">
+                      <li>• Access to brand manifestos</li>
+                      <li>• Early collection reveals</li>
+                      <li>• Design submission portal</li>
+                    </ul>
                   </div>
-                  <p className="text-muted-foreground leading-relaxed">
-                    Together, we amplify the message that fashion can be a force for positive change. Every member contributes to our collective mission of transformation and renewal.
-                  </p>
-                </div>
 
-                <div className="space-y-4">
-                  <div className="flex items-center gap-3">
-                    <MessageSquare className="h-6 w-6 text-accent" />
-                    <h2 className="text-xl font-medium">Shared Stories</h2>
+                  <div className="border border-accent rounded-lg p-6 space-y-4 bg-accent/5">
+                    <div className="flex items-center gap-3">
+                      <div className="text-2xl">⚡</div>
+                      <div>
+                        <h3 className="text-xl font-medium">Creator ($15/mo)</h3>
+                        <p className="text-sm text-accent font-mono">"MOST REBELLIOUS"</p>
+                      </div>
+                    </div>
+                    <p className="text-muted-foreground text-sm leading-relaxed">
+                      Vote on directions, quarterly exclusive artifacts, co-creation access, 
+                      and 15% rebellion discount on all eternal artifacts.
+                    </p>
+                    <ul className="space-y-1 text-sm text-muted-foreground">
+                      <li>• Vote on product directions</li>
+                      <li>• Quarterly exclusive artifacts</li>
+                      <li>• Co-creation access</li>
+                      <li>• 15% discount on all items</li>
+                    </ul>
                   </div>
-                  <p className="text-muted-foreground leading-relaxed">
-                    Each garment carries multiple narratives—the designer's vision, the maker's craft, and your personal story. Our community celebrates these intersecting tales.
-                  </p>
-                </div>
 
-                <div className="space-y-4">
-                  <div className="flex items-center gap-3">
-                    <Heart className="h-6 w-6 text-accent" />
-                    <h2 className="text-xl font-medium">Values Alignment</h2>
+                  <div className="border border-accent rounded-lg p-6 space-y-4 bg-accent/10">
+                    <div className="flex items-center gap-3">
+                      <div className="text-2xl">👑</div>
+                      <div>
+                        <h3 className="text-xl font-medium">Visionary ($50/mo)</h3>
+                        <p className="text-sm text-accent font-mono">"LEAD THE REVOLUTION"</p>
+                      </div>
+                    </div>
+                    <p className="text-muted-foreground text-sm leading-relaxed">
+                      Shape brand transformation, co-design pieces, monthly strategy calls, 
+                      custom commissions, and 25% discount. Lead the collective uprising.
+                    </p>
+                    <ul className="space-y-1 text-sm text-muted-foreground">
+                      <li>• Shape brand transformation</li>
+                      <li>• Co-design new pieces</li>
+                      <li>• Monthly strategy calls</li>
+                      <li>• Custom commissions</li>
+                      <li>• 25% discount on all items</li>
+                    </ul>
                   </div>
-                  <p className="text-muted-foreground leading-relaxed">
-                    We unite people who prioritize quality over quantity, meaning over trends, and impact over appearance. Shared values create lasting connections.
-                  </p>
                 </div>
               </section>
 
