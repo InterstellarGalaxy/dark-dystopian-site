@@ -30,7 +30,7 @@ export default function Community() {
                 </Link>
               </Button>
               <div className="font-mono text-xs text-accent tracking-widest uppercase">
-                <span className="glyph">⚡</span> The Dystopian Collective
+                <span className="glyph">⧉</span> The Dystopian Collective
               </div>
             </div>
 
@@ -54,7 +54,7 @@ export default function Community() {
                 <div className="grid md:grid-cols-3 gap-8">
                   <div className="border border-border rounded-lg p-6 space-y-4">
                     <div className="flex items-center gap-3">
-                      <div className="text-2xl">🌱</div>
+                      <div className="glyph text-2xl text-accent">☉</div>
                       <div>
                         <h3 className="text-xl font-medium">Seedling (Free)</h3>
                         <p className="text-sm text-accent font-mono">"JOIN THE UPRISING"</p>
@@ -73,7 +73,7 @@ export default function Community() {
 
                   <div className="border border-accent rounded-lg p-6 space-y-4 bg-accent/5">
                     <div className="flex items-center gap-3">
-                      <div className="text-2xl">⚡</div>
+                      <div className="glyph text-2xl text-accent">⧉</div>
                       <div>
                         <h3 className="text-xl font-medium">Creator ($15/mo)</h3>
                         <p className="text-sm text-accent font-mono">"MOST REBELLIOUS"</p>
@@ -93,7 +93,7 @@ export default function Community() {
 
                   <div className="border border-accent rounded-lg p-6 space-y-4 bg-accent/10">
                     <div className="flex items-center gap-3">
-                      <div className="text-2xl">👑</div>
+                      <div className="glyph text-2xl text-accent">✿</div>
                       <div>
                         <h3 className="text-xl font-medium">Visionary ($50/mo)</h3>
                         <p className="text-sm text-accent font-mono">"LEAD THE REVOLUTION"</p>

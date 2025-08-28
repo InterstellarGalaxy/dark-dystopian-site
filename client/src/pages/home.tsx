@@ -147,7 +147,7 @@ export default function Home() {
               <div className="lg:col-span-7 space-y-8">
                 <div className="space-y-4">
                   <div className="font-mono text-xs text-accent tracking-widest uppercase">
-                    <span className="glyph">⚡</span> Creative Rebellion
+                    <span className="glyph">☉</span> Creative Rebellion
                   </div>
                   <h1 className="text-4xl md:text-6xl lg:text-7xl font-light leading-tight">
                     Light born<br />
@@ -163,11 +163,11 @@ export default function Home() {
                   </p>
                   
                   <div className="flex items-center space-x-4 text-sm font-mono text-muted-foreground">
-                    <span className="glyph">🌱</span>
+                    <span className="glyph">☉</span>
                     <span>WEAPONS AGAINST WASTE</span>
-                    <span className="glyph">⚡</span>
+                    <span className="glyph">⧉</span>
                     <span>VESSELS FOR TRANSFORMATION</span>
-                    <span className="glyph">👑</span>
+                    <span className="glyph">✿</span>
                   </div>
                 </div>
               </div>
@@ -190,7 +190,7 @@ export default function Home() {
             <div className="grid lg:grid-cols-12 gap-12">
               <div className="lg:col-span-4">
                 <div className="font-mono text-xs text-accent tracking-widest uppercase mb-4">
-                  <span className="glyph">⚡</span> Revolutionary Products
+                  <span className="glyph">⧉</span> Revolutionary Products
                 </div>
                 <h2 className="text-3xl md:text-4xl font-light mb-6">
                   Eternal<br />
@@ -206,7 +206,7 @@ export default function Home() {
                 {/* Collection Item 1 */}
                 <div className="space-y-4 group">
                   <div className="font-mono text-xs text-muted-foreground tracking-wide">
-                    STEEL_001 <span className="glyph group-hover:text-accent transition-colors">⚡</span>
+                    STEEL_001 <span className="glyph group-hover:text-accent transition-colors">☉</span>
                   </div>
                   <h3 className="text-xl font-medium">Dystopian Steel Rings</h3>
                   <p className="text-sm text-muted-foreground leading-relaxed">
@@ -221,7 +221,7 @@ export default function Home() {
                 {/* Collection Item 2 */}
                 <div className="space-y-4 group">
                   <div className="font-mono text-xs text-muted-foreground tracking-wide">
-                    PHOENIX_002 <span className="glyph group-hover:text-accent transition-colors">🌱</span>
+                    PHOENIX_002 <span className="glyph group-hover:text-accent transition-colors">✿</span>
                   </div>
                   <h3 className="text-xl font-medium">Phoenix Seed Garments</h3>
                   <p className="text-sm text-muted-foreground leading-relaxed">
@@ -243,7 +243,7 @@ export default function Home() {
             <div className="grid lg:grid-cols-12 gap-12 items-center">
               <div className="lg:col-span-6">
                 <div className="font-mono text-xs text-accent tracking-widest uppercase mb-6">
-                  <span className="glyph">⚡</span> Dystopian Hope
+                  <span className="glyph">☉</span> Dystopian Hope
                 </div>
                 <h2 className="text-3xl md:text-5xl font-light leading-tight mb-8">
                   Creative freedom<br />
@@ -300,7 +300,7 @@ export default function Home() {
           <div className="container mx-auto px-6">
             <div className="max-w-4xl mx-auto text-center">
               <div className="font-mono text-xs text-accent tracking-widest uppercase mb-6">
-                <span className="glyph">⚡</span> The Dystopian Collective
+                <span className="glyph">⧉</span> The Dystopian Collective
               </div>
               
               <h2 className="text-3xl md:text-5xl font-light leading-tight mb-8">
@@ -360,7 +360,7 @@ export default function Home() {
               {/* Collective Tiers Grid */}
               <div className="grid md:grid-cols-3 gap-8 mt-16 pt-16 border-t border-border">
                 <div className="text-center group">
-                  <div className="text-2xl mb-4">🌱</div>
+                  <div className="glyph text-2xl text-accent mb-4">☉</div>
                   <h3 className="font-medium mb-2">Seedling (Free)</h3>
                   <p className="text-sm text-muted-foreground mb-3">
                     Underground access to manifestos, early reveals, and design submissions
@@ -371,7 +371,7 @@ export default function Home() {
                 </div>
                 
                 <div className="text-center group">
-                  <div className="text-2xl mb-4">⚡</div>
+                  <div className="glyph text-2xl text-accent mb-4">⧉</div>
                   <h3 className="font-medium mb-2">Creator ($15/mo)</h3>
                   <p className="text-sm text-muted-foreground mb-3">
                     Vote on directions, quarterly artifacts, co-creation access, 15% discount
@@ -382,7 +382,7 @@ export default function Home() {
                 </div>
                 
                 <div className="text-center group">
-                  <div className="text-2xl mb-4">👑</div>
+                  <div className="glyph text-2xl text-accent mb-4">✿</div>
                   <h3 className="font-medium mb-2">Visionary ($50/mo)</h3>
                   <p className="text-sm text-muted-foreground mb-3">
                     Shape brand transformation, co-design pieces, custom commissions, 25% discount

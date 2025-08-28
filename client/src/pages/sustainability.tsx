@@ -30,7 +30,7 @@ export default function Sustainability() {
                 </Link>
               </Button>
               <div className="font-mono text-xs text-accent tracking-widest uppercase">
-                <span className="glyph">🌱</span> Regenerative Rebellion
+                <span className="glyph">✿</span> Regenerative Rebellion
               </div>
             </div>
 

@@ -30,7 +30,7 @@ export default function Philosophy() {
                 </Link>
               </Button>
               <div className="font-mono text-xs text-accent tracking-widest uppercase">
-                <span className="glyph">⚡</span> Dystopian Hope
+                <span className="glyph">☉</span> Dystopian Hope
               </div>
             </div>
 
