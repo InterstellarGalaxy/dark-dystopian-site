@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dark & Dystopian - Futurewear Artifacts</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Fira+Code:wght@300;400&display=swap" rel="stylesheet">
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+    tailwind.config = {
+        theme: {
+            extend: {
+                borderRadius: {
+                    lg: "var(--radius)",
+                    md: "calc(var(--radius) - 2px)",
+                    sm: "calc(var(--radius) - 4px)",
+                },
+                colors: {
+                    background: "var(--background)",
+                    foreground: "var(--foreground)",
+                    card: {
+                        DEFAULT: "var(--card)",
+                        foreground: "var(--card-foreground)",
+                    },
+                    primary: {
+                        DEFAULT: "var(--primary)",
+                        foreground: "var(--primary-foreground)",
+                    },
+                    secondary: {
+                        DEFAULT: "var(--secondary)",
+                        foreground: "var(--secondary-foreground)",
+                    },
+                    muted: {
+                        DEFAULT: "var(--muted)",
+                        foreground: "var(--muted-foreground)",
+                    },
+                    accent: {
+                        DEFAULT: "var(--accent)",
+                        foreground: "var(--accent-foreground)",
+                    },
+                    border: "var(--border)",
+                    input: "var(--input)",
+                    ring: "var(--ring)",
+                },
+                fontFamily: {
+                    sans: ["Inter", "sans-serif"],
+                    mono: ["Fira Code", "monospace"],
+                },
+                spacing: {
+                    '18': '4.5rem',
+                    '22': '5.5rem',
+                    '26': '6.5rem',
+                    '30': '7.5rem',
+                }
+            },
+        }
+    };
+    </script>
+    
+    <style>
+        :root {
+            --background: hsl(0 0% 8%);
+            --foreground: hsl(0 0% 96%);
+            --card: hsl(0 0% 12%);
+            --card-foreground: hsl(0 0% 96%);
+            --primary: hsl(0 0% 96%);
+            --primary-foreground: hsl(0 0% 8%);
+            --secondary: hsl(0 0% 15%);
+            --secondary-foreground: hsl(0 0% 96%);
+            --muted: hsl(0 0% 15%);
+            --muted-foreground: hsl(0 0% 65%);
+            --accent: hsl(120 20% 40%);
+            --accent-foreground: hsl(0 0% 96%);
+            --border: hsl(0 0% 20%);
+            --input: hsl(0 0% 15%);
+            --ring: hsl(120 20% 40%);
+            --radius: 0.25rem;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--background);
+            color: var(--foreground);
+            line-height: 1.6;
+        }
+
+        .glyph {
+            font-family: 'Fira Code', monospace;
+            transition: all 0.2s ease;
+        }
+
+        .glyph:hover {
+            color: var(--accent);
+            transform: scale(1.1);
+        }
+
+        .grid-lines {
+            position: relative;
+        }
+
+        .grid-lines::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-image: 
+                linear-gradient(90deg, rgba(255,255,255,0.05) 1px, transparent 1px),
+                linear-gradient(180deg, rgba(255,255,255,0.05) 1px, transparent 1px);
+            background-size: 2rem 2rem;
+            pointer-events: none;
+            z-index: 0;
+        }
+
+        .form-focus:focus {
+            outline: none;
+            border-color: var(--accent);
+            box-shadow: 0 0 0 2px rgba(120, 160, 120, 0.2);
+        }
+
+        .text-accent-glow {
+            text-shadow: 0 0 10px rgba(120, 160, 120, 0.3);
+        }
+
+        @media (max-width: 768px) {
+            .grid-lines::before {
+                background-size: 1rem 1rem;
+            }
+        }
+    </style>
+</head>
+
+<body class="bg-background text-foreground">
+    <!-- @COMPONENT: Header Navigation -->
+    <header class="fixed top-0 w-full z-50 bg-background/80 backdrop-blur-sm border-b border-border">
+        <nav class="container mx-auto px-6 py-4">
+            <div class="flex items-center justify-between">
+                <div class="font-mono text-sm tracking-wider">
+                    <span class="glyph">☉</span> DARK & DYSTOPIAN
+                </div>
+                <div class="font-mono text-xs text-muted-foreground">
+                    EST. <span class="glyph">⧉</span> 2024
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- @END_COMPONENT: Header Navigation -->
+
+    <main class="grid-lines">
+        <!-- @COMPONENT: Hero Section -->
+        <section class="min-h-screen flex items-center pt-20">
+            <div class="container mx-auto px-6">
+                <div class="grid lg:grid-cols-12 gap-8 lg:gap-12 items-center">
+                    <!-- Typography Section -->
+                    <div class="lg:col-span-7 space-y-8">
+                        <div class="space-y-4">
+                            <div class="font-mono text-xs text-accent tracking-widest uppercase">
+                                <span class="glyph">✿</span> Futurewear Artifacts
+                            </div>
+                            <h1 class="text-4xl md:text-6xl lg:text-7xl font-light leading-tight">
+                                Every artifact<br />
+                                tells a story of<br />
+                                <span class="text-accent-glow">transformation</span>
+                            </h1>
+                        </div>
+                        
+                        <div class="space-y-6 max-w-lg">
+                            <p class="text-lg text-muted-foreground leading-relaxed">
+                                We create collectible, narrative-driven garments from sustainable materials. 
+                                Each piece invites you into an exclusive community of reflection and renewal.
+                            </p>
+                            
+                            <div class="flex items-center space-x-4 text-sm font-mono text-muted-foreground">
+                                <span class="glyph">☉</span>
+                                <span>DYSTOPIAN GRIT</span>
+                                <span class="glyph">⧉</span>
+                                <span>SOLARPUNK RENEWAL</span>
+                                <span class="glyph">✿</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Hero Image -->
+                    <div class="lg:col-span-5">
+                        <!-- A minimalist futuristic garment photographed against a stark concrete background -->
+                        <img 
+                            src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=1000&q=80" 
+                            alt="Futuristic minimalist garment against concrete background" 
+                            class="w-full h-auto object-cover rounded-sm shadow-2xl"
+                            data-mock="true"
+                        />
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- @END_COMPONENT: Hero Section -->
+
+        <!-- @COMPONENT: Collection Preview -->
+        <section class="py-20 lg:py-30">
+            <div class="container mx-auto px-6">
+                <div class="grid lg:grid-cols-12 gap-12">
+                    <div class="lg:col-span-4">
+                        <div class="font-mono text-xs text-accent tracking-widest uppercase mb-4">
+                            <span class="glyph">⧉</span> Debut Collection
+                        </div>
+                        <h2 class="text-3xl md:text-4xl font-light mb-6">
+                            Genesis<br />
+                            Artifacts
+                        </h2>
+                        <p class="text-muted-foreground text-sm leading-relaxed">
+                            Limited quantities. Unique variations.<br />
+                            Each piece carries fragments of tomorrow.
+                        </p>
+                    </div>
+
+                    <div class="lg:col-span-8 grid md:grid-cols-2 gap-8">
+                        <!-- Collection Item 1 -->
+                        <div class="space-y-4 group">
+                            <div class="font-mono text-xs text-muted-foreground tracking-wide">
+                                ARTIFACT_001 <span class="glyph group-hover:text-accent transition-colors">☉</span>
+                            </div>
+                            <h3 class="text-xl font-medium">Shadow Walker Jacket</h3>
+                            <p class="text-sm text-muted-foreground leading-relaxed">
+                                Born from necessity in collapsed cities. Regenerative materials that adapt 
+                                to urban decay while nurturing new growth.
+                            </p>
+                            <div class="font-mono text-xs text-accent">
+                                12 VARIATIONS AVAILABLE
+                            </div>
+                        </div>
+
+                        <!-- Collection Item 2 -->
+                        <div class="space-y-4 group">
+                            <div class="font-mono text-xs text-muted-foreground tracking-wide">
+                                ARTIFACT_002 <span class="glyph group-hover:text-accent transition-colors">✿</span>
+                            </div>
+                            <h3 class="text-xl font-medium">Revival Suit</h3>
+                            <p class="text-sm text-muted-foreground leading-relaxed">
+                                Engineered for the architects of renewal. Biomimetic fabrics that 
+                                blur the line between technology and nature.
+                            </p>
+                            <div class="font-mono text-xs text-accent">
+                                8 VARIATIONS AVAILABLE
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- @END_COMPONENT: Collection Preview -->
+
+        <!-- @COMPONENT: Brand Philosophy -->
+        <section class="py-20 lg:py-30 bg-secondary">
+            <div class="container mx-auto px-6">
+                <div class="grid lg:grid-cols-12 gap-12 items-center">
+                    <div class="lg:col-span-6">
+                        <div class="font-mono text-xs text-accent tracking-widest uppercase mb-6">
+                            <span class="glyph">☉</span> Philosophy
+                        </div>
+                        <h2 class="text-3xl md:text-5xl font-light leading-tight mb-8">
+                            Clothing as a medium<br />
+                            for <span class="text-accent-glow">reflection</span><br />
+                            and change
+                        </h2>
+                    </div>
+
+                    <div class="lg:col-span-6 space-y-6">
+                        <p class="text-muted-foreground leading-relaxed">
+                            In a world caught between collapse and renewal, we refuse to choose sides. 
+                            Our garments embody the tension—the raw honesty of dystopian realities 
+                            merged with the hopeful innovation of solarpunk futures.
+                        </p>
+                        
+                        <p class="text-muted-foreground leading-relaxed">
+                            Every stitch carries intention. Every fabric tells a story of transformation. 
+                            We create not just clothing, but artifacts of conscious evolution—pieces that 
+                            invite their wearers to question, reflect, and ultimately, transcend.
+                        </p>
+
+                        <div class="grid grid-cols-2 gap-4 pt-6">
+                            <div class="text-center">
+                                <div class="font-mono text-xs text-accent mb-2">MATERIALS</div>
+                                <div class="text-sm">100% Sustainable</div>
+                            </div>
+                            <div class="text-center">
+                                <div class="font-mono text-xs text-accent mb-2">PRODUCTION</div>
+                                <div class="text-sm">Limited Batches</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- @END_COMPONENT: Brand Philosophy -->
+
+        <!-- @COMPONENT: Community Signup -->
+        <section class="py-20 lg:py-30">
+            <div class="container mx-auto px-6">
+                <div class="max-w-4xl mx-auto text-center">
+                    <div class="font-mono text-xs text-accent tracking-widest uppercase mb-6">
+                        <span class="glyph">⧉</span> Community
+                    </div>
+                    
+                    <h2 class="text-3xl md:text-5xl font-light leading-tight mb-8">
+                        Join the Dark &<br />
+                        <span class="text-accent-glow">Dystopian Club</span>
+                    </h2>
+                    
+                    <p class="text-lg text-muted-foreground mb-12 max-w-2xl mx-auto">
+                        Become part of an exclusive community that questions conventional fashion 
+                        and creates meaningful change. Early access, exclusive insights, and 
+                        connection with like-minded visionaries.
+                    </p>
+
+                    <!-- @FUNCTIONALITY: Email signup form with validation -->
+                    <form class="max-w-md mx-auto space-y-6" data-implementation="Should validate email and handle subscription">
+                        <div class="relative">
+                            <input 
+                                type="email" 
+                                placeholder="your.email@domain.com"
+                                class="w-full px-4 py-3 bg-input border border-border rounded-sm text-foreground placeholder-muted-foreground focus:outline-none form-focus transition-all"
+                                required
+                                data-bind="email"
+                                data-mock="true"
+                            />
+                        </div>
+                        
+                        <button 
+                            type="submit"
+                            class="w-full px-6 py-3 bg-accent text-accent-foreground font-medium rounded-sm hover:bg-accent/90 transition-colors focus:outline-none focus:ring-2 focus:ring-accent/50"
+                            data-event="click:handleEmailSubmit"
+                        >
+                            REQUEST EARLY ACCESS
+                        </button>
+                    </form>
+
+                    <!-- Benefits Grid -->
+                    <div class="grid md:grid-cols-3 gap-8 mt-16 pt-16 border-t border-border">
+                        <div class="text-center">
+                            <div class="glyph text-2xl text-accent mb-4">☉</div>
+                            <h3 class="font-medium mb-2">First Access</h3>
+                            <p class="text-sm text-muted-foreground">
+                                Priority access to new collections before public release
+                            </p>
+                        </div>
+                        
+                        <div class="text-center">
+                            <div class="glyph text-2xl text-accent mb-4">⧉</div>
+                            <h3 class="font-medium mb-2">Exclusive Insights</h3>
+                            <p class="text-sm text-muted-foreground">
+                                Behind-the-scenes stories and design philosophy deep-dives
+                            </p>
+                        </div>
+                        
+                        <div class="text-center">
+                            <div class="glyph text-2xl text-accent mb-4">✿</div>
+                            <h3 class="font-medium mb-2">Community Impact</h3>
+                            <p class="text-sm text-muted-foreground">
+                                Influence future designs and participate in meaningful conversations
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- @END_COMPONENT: Community Signup -->
+    </main>
+
+    <!-- @COMPONENT: Footer -->
+    <footer class="py-12 border-t border-border bg-secondary">
+        <div class="container mx-auto px-6">
+            <div class="grid md:grid-cols-2 gap-8 items-center">
+                <div>
+                    <div class="font-mono text-sm tracking-wider mb-2">
+                        <span class="glyph">☉</span> DARK & DYSTOPIAN
+                    </div>
+                    <p class="text-xs text-muted-foreground">
+                        Futurewear artifacts for conscious transformation
+                    </p>
+                </div>
+                
+                <div class="text-right">
+                    <div class="font-mono text-xs text-muted-foreground space-x-4">
+                        <span class="glyph">⧉</span>
+                        <span>SUSTAINABILITY</span>
+                        <span class="glyph">✿</span>
+                        <span>COMMUNITY</span>
+                        <span class="glyph">☉</span>
+                        <span>TRANSFORMATION</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- @END_COMPONENT: Footer -->
+
+    <script>
+        // TODO: Implement email subscription handling
+        // TODO: Add form validation and success/error states  
+        // TODO: Implement analytics tracking for user interactions
+        
+        (function() {
+            // Simple form interaction enhancement
+            const form = document.querySelector('form');
+            const emailInput = document.querySelector('input[type="email"]');
+            
+            if (form && emailInput) {
+                form.addEventListener('submit', function(e) {
+                    e.preventDefault();
+                    // TODO: Implement actual email subscription logic
+                    console.log('Email subscription requested for:', emailInput.value);
+                });
+            }
+            
+            // ASCII glyph hover effects
+            const glyphs = document.querySelectorAll('.glyph');
+            glyphs.forEach(glyph => {
+                glyph.addEventListener('mouseenter', function() {
+                    this.style.transform = 'scale(1.1)';
+                });
+                
+                glyph.addEventListener('mouseleave', function() {
+                    this.style.transform = 'scale(1)';
+                });
+            });
+        })();
+    </script>
+</body>
+</html>
