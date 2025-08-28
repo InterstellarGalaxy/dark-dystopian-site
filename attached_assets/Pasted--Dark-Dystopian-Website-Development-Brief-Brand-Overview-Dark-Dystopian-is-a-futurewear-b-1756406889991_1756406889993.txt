@@ -1,0 +1,168 @@
+# Dark & Dystopian - Website Development Brief
+
+## Brand Overview
+Dark & Dystopian is a futurewear brand that fuses dystopian grit with solarpunk renewal. We create collectible, narrative-driven garments from sustainable materials. Each piece is an "artifact" that tells a story and invites owners into an exclusive community of reflection and transformation.
+
+## Website Objectives
+- **Primary Goal**: Launch MVP single-page site to capture early community interest
+- **Secondary Goal**: Create foundation for future interactive storytelling expansion
+- **Brand Mission**: Convey duality (shadow/light, collapse/renewal) through digital experience
+
+## Target Audience
+- **Primary**: Conscious consumers aged 25-40 interested in sustainable fashion
+- **Secondary**: Digital natives who appreciate narrative-driven brands
+- **Tertiary**: Collectors seeking unique, limited-edition pieces with deeper meaning
+
+## Phase 1 Requirements (MVP Launch)
+
+### Essential Features
+1. **Hero Section**
+   - Large, atmospheric image of first artifact collection
+   - Brand name with philosophical tagline
+   - Immediate sense of duality and narrative depth
+
+2. **Collection Preview**
+   - Name and micro-description of debut batch
+   - Emphasis on limited quantities and unique variations
+   - Storytelling fragment embedded in presentation
+
+3. **Community Signup**
+   - "Join the Dark & Dystopian Club" call-to-action
+   - Email capture with early access promise
+   - Membership benefits preview
+
+4. **Brand Philosophy**
+   - Brief section on sustainability and narrative approach
+   - Emotional connection over product specifications
+
+### Visual Design Requirements
+
+#### Typography
+- **Primary**: Swiss-style sans-serif (clean, minimal)
+- **Accent**: Fira Code for ASCII aesthetic touches
+- **Hierarchy**: Bold contrasts, generous whitespace
+
+#### Color Palette
+- **Base**: Deep blacks, charcoal greys, off-whites
+- **Solarpunk Accents**: Subtle green/golden highlights
+- **Mood**: Sophisticated darkness with organic life elements
+
+#### Layout Style
+- **Grid-based**: Swiss design principles
+- **Minimal**: Clean, uncluttered composition
+- **Responsive**: Mobile-first approach
+- **Loading**: Fast, lightweight (under 2MB total)
+
+#### Iconography
+- **Style**: ASCII-inspired glyphs (☉, ⧉, ✿)
+- **Usage**: Navigation, hover states, section dividers
+- **Mood**: Mysterious yet approachable
+
+### Content Strategy
+
+#### Messaging Tone
+- **Voice**: Philosophical, introspective, authentic
+- **Avoid**: Hype-driven fashion marketing
+- **Focus**: Emotion, reflection, and meaningful connection
+
+#### Key Messages
+1. "Every artifact tells a story of transformation"
+2. "Clothing as a medium for reflection and change"
+3. "Join a community that questions and creates"
+4. "Sustainable materials, infinite possibilities"
+
+## Technical Specifications
+
+### Performance Requirements
+- **Load Time**: Under 3 seconds
+- **Mobile Optimization**: Essential
+- **Accessibility**: WCAG 2.1 AA compliance
+- **SEO**: Basic optimization for brand discovery
+
+### Future-Proofing Features
+- **Eco-Mode Toggle**: Text-heavy/low-energy version
+- **Modular Design**: Easy expansion for new sections
+- **CMS Integration**: Content management for collections
+- **Digital Twin Ready**: Framework for NFT integration
+
+## User Experience Flow
+
+### Primary Journey
+1. **Arrival**: Immediate emotional impact through hero image
+2. **Discovery**: Learn about brand philosophy and approach
+3. **Connection**: Understand the community aspect
+4. **Action**: Join club for early access and updates
+
+### Micro-Interactions
+- **Hover Effects**: Subtle glyph animations
+- **Scroll Reveals**: Progressive content disclosure
+- **Email Signup**: Smooth, rewarding interaction
+- **Navigation**: Minimal but intuitive
+
+## Content Requirements
+
+### Photography/Imagery
+- **Style**: Moody, atmospheric, high-contrast
+- **Subject**: Products as artifacts in conceptual settings
+- **Quality**: Professional, but with authentic imperfections
+- **Quantity**: 3-5 hero images for launch
+
+### Copy Sections
+1. **Hero Headline** (10-15 words)
+2. **Brand Description** (50-75 words)
+3. **Collection Introduction** (25-40 words)
+4. **Community Benefits** (3-5 bullet points)
+5. **Philosophy Statement** (100-150 words)
+
+## Phase 2 Expansion Ideas
+*(For future reference)*
+
+### Interactive Elements
+- **ASCII Art Animations**: Brand storytelling through code aesthetics
+- **Sound Design**: Ambient audio for immersive experience
+- **Digital Twin Gallery**: NFT collection showcase
+- **Member Portal**: Exclusive content and early access
+
+### Advanced Features
+- **AR Try-On**: Virtual garment experience
+- **Story Fragments**: Interactive narrative exploration
+- **Customization Tool**: Micro-variations selection
+- **Community Hub**: Owner connections and sharing
+
+## Success Metrics
+
+### Launch Goals
+- **Email Signups**: 500+ in first month
+- **Engagement**: 2+ minutes average session time
+- **Conversion**: 15%+ email signup rate
+- **Brand Recall**: Memorable first impression
+
+### Long-term KPIs
+- **Community Growth**: Month-over-month email list expansion
+- **Engagement Quality**: Return visitors and session depth
+- **Brand Differentiation**: Unique positioning in sustainable fashion
+- **Cultural Impact**: Social sharing and organic mentions
+
+## Budget Considerations
+- **MVP Development**: $3,000-$8,000 range
+- **Professional Photography**: $1,500-$3,000
+- **Hosting & Domain**: $200-$500 annually
+- **Maintenance**: $500-$1,000 monthly
+
+## Timeline Recommendations
+- **Design Phase**: 2-3 weeks
+- **Development**: 3-4 weeks
+- **Content Creation**: 2-3 weeks (concurrent)
+- **Testing & Launch**: 1 week
+- **Total**: 6-8 weeks for MVP
+
+---
+
+**Key Differentiators to Emphasize:**
+- Emotional depth over surface aesthetics
+- Philosophical approach to fashion consumption
+- Community-driven brand evolution
+- Sustainable practices without compromise on design
+- Collectible nature with narrative significance
+
+**Remember**: This is more than a fashion website—it's a digital gateway to a philosophical movement about conscious consumption, emotional reflection, and sustainable future-building.
