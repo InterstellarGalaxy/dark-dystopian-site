@@ -8,6 +8,7 @@ import NotFound from "@/pages/not-found";
 import Philosophy from "@/pages/philosophy";
 import Sustainability from "@/pages/sustainability";
 import Community from "@/pages/community";
+import Wireframe from "@/pages/wireframe";
 
 function Router() {
   return (
@@ -16,6 +17,7 @@ function Router() {
       <Route path="/philosophy" component={Philosophy} />
       <Route path="/sustainability" component={Sustainability} />
       <Route path="/community" component={Community} />
+      <Route path="/wireframe" component={Wireframe} />
       <Route component={NotFound} />
     </Switch>
   );
